@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome church</title>
+	<!-- scripts to load before th DOM opens -->
+	<script defer src="../js/style.js"></script>
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+	<!-- custom styling -->
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	    <!-- header + navigation -------------- -->
+
+		<header id="header" class="header">
+			<div id="navbar-top" class="navbar">
+				<a href="#" class="navbar-logo"><img src="../imgs/main-logo.png" alt="" srcset=""></a>
+				<ul id="navbar-menu" class="menu">
+					<li id="active"><a href="#">Home</a></li>
+					<li><a href="#">ABout</a></li>
+					<li><a href="#">church</a></li>
+					<li><a href="#">programs</a></li>
+					<li class="dropdown"><a href="#">shop <i class="fa fa-caret-down"></i></a>
+						<ul class="drop-menu">
+							<li><a href="#">T-shirt</a></li>
+							<li><a href="#">Notebook </a></li>
+						</ul>
+					</li>
+					<li class="dropdown"><a href="#">store <i class="fa fa-caret-down"></i></a>
+						<ul class="drop-menu">
+							<li><a href="#">media</a></li>
+							<li><a href="#">gallery </a></li>
+							<li><a href="#">Music</a></li>
+							<li><a href="#">sermons</a></li>
+						</ul>
+					</li>
+					<li><a href="#">associates</a></li>
+					<li><a href="#">members</a></li>
+	
+				</ul>
+			</div>
+		</header>
+	
+		<!-- //header + navigation ------------ -->
+
+		<!-- homepage ------------------------- -->
+
+		<div id="body-img" class="body-img">
+			
+		</div>
+	
+		<!-- //homepage ----------------------- -->
+
+		 <!-- container for content -->
+		 <section id="container-full">
+
+
+			<!-- executive team -->
+
+			<div id="team" class="exec-team">
+				<div class="wrapper">
+					<div id="t-card">
+						<div class="t-row">
+							<img src="#" alt="" class="t-img">
+						<h2>Name Mane</h2>
+						<h3>Position</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		 </section>
+		 <!-- //container for content -->
+
+   <!-- footer --------------------------- -->
+
+   <footer>
+	<div class="wrapper">
+		<div class="foot-container">
+			<div class="foot-card">
+				<div>
+				</div>
+				<h2>Kaimosi friends university</h2>
+	
+			</div>
+			<div class="foot-card">
+				<h2>ABout us</h2>
+				<nav id="footNav">
+					<ul>
+						<li> <a href="#">New Here</a> </li>
+						<li> <a href="#">Vision & core values</a> </li>
+						<li> <a href="#">Missions</a> </li>
+						<li> <a href="#">Leadership</a> </li>
+						<li> <a href="#">resources</a> </li>
+					</ul>
+				</nav>
+			</div>
+			<div class="foot-card">
+				<h2>get involved</h2>
+				<nav id="footNav">
+					<ul>
+						<li> <a href="#">Best-p</a> </li>
+						<li> <a href="#">faith foundation</a> </li>
+						<li> <a href="#">prayers and fasting</a> </li>
+						<li> <a href="#">Groups</a> </li>
+						<li> <a href="#">Guidance & counselling</a> </li>
+						<li> <a href="#">Serve</a> </li>
+					</ul>
+				</nav>
+			</div>
+			<div class="foot-card">
+				<h2>Ministries</h2>
+				<nav id="footNav">
+					<ul>
+						<li> <a href="#">Ushering</a> </li>
+						<li> <a href="#">Welfare</a> </li>
+						<li> <a href="#">Sunday school</a> </li>
+						<li> <a href="#">evangelism</a> </li>
+						<li> <a href="#">media</a> </li>
+						<li> <a href="#"></a> </li>
+					</ul>
+				</nav>
+			</div>
+		</div>            
+	</div>
+	<div class="copypright">
+		<div class="wrapper">
+		<p class="copy-text">Developed and maintained by  <span>kafucu media </span> </p>
+		<p class="copy-right">&copy; Kafucu 2022.</p>
+		</div>
+	</div>
+   </footer>
+
+<!-- //footer ------------------------- -->
+
+<!-- -------------------------------------------------- -->
+<!-- module script -->
+<script type="module" src="../js/main.js"></script>    
+<!-- custom svripting -->
+<script src="../js/index.js"></script>
+
+</body>
+</html>
